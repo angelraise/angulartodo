@@ -17,13 +17,12 @@
 		<label class="editing-label">Sample</label>
 		<input class="editing-label" type="text"/>
 	</div>
-	<div class="actions">
-		<button type="button" class="btn btn-success">save</button>
+	<div ng-controller="mainCtrl" class="actions">
+		<button type="button" class="btn btn-success" ng-click="helloWorld()">save</button>
 		<button type="button" class="btn btn-primary">edit</button>
 		<button type="button" class="btn btn-danger">delete</button>
 	</div>
   <script src="vendor/angular.js" type="text/javascript"></script>
   <script src="scripts/app.js" type="text/javascript"></script>
-  <script src="scripts/hello-world.js" type="text/javascript"></script>
 </body>
 </html>
